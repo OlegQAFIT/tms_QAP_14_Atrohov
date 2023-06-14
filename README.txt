@@ -10,4 +10,4 @@
 10.Enter- git add .
 11.Enter- git commit -m "add new file README.txt"
 12.Enter- git push origin QAP_14
-13.Merge
+13.Merge.

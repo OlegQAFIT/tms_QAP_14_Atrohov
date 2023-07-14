@@ -25,9 +25,9 @@ def change_content():
     global dat_2
     global dat_1
     with open('Ex_4_First.bin', 'wb') as f_1:
-        f_1.write(dat_2)
+        f_1.write(date_2)
     with open('Ex_4_Second.bin', 'wb') as f_2:
-        f_2.write(dat_1)
+        f_2.write(date_1)
 
     change_content()
 

@@ -42,4 +42,3 @@ def change_content():
 
 
 
-

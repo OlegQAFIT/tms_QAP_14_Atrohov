@@ -18,3 +18,6 @@ def create_generator():
 positive_numbers = create_generator()
 for i in positive_numbers:
     print(i)
+
+
+

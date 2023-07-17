@@ -7,9 +7,9 @@ nums_flt = [random.uniform(5, 50) for i in range(5)]
 print(nums_flt)
 # Специально вывожу, чтобы продемонстрировать какие значения выводит
 
-f_1 = open('Ex_3_Real numbers_float.py')
+f_1 = open('ex_3_real numbers_float.py')
 
-with open('Ex_3_Real numbers_float.py', 'w') as file:
+with open('ex_3_real numbers_float.py', 'w') as file:
     file.write(str(nums_flt) + '\n')
 
     nums_flt_1 = list(map(float, nums_flt))

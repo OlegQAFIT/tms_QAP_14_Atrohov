@@ -5,16 +5,16 @@
 # пустым
 import random
 
-even = open('Ex2_decision_even numbers.py', 'a')
-odd = open('Ex2_decision_odd numbers.py', 'a')
+even = open('ex2_decision_even numbers.py', 'a')
+odd = open('ex2_decision_odd numbers.py', 'a')
 
 oll_nums = [random.randint(0, 350) for y in range(30)]
 print(oll_nums)
 
-with open('Ex2_decision_even numbers.py', 'w') as file:
+with open('ex2_decision_even numbers.py', 'w') as file:
     file.write(str(oll_nums) + '\n')
 
-with open('Ex2_decision_odd numbers.py', 'w') as file:
+with open('ex2_decision_odd numbers.py', 'w') as file:
     file.write(str(oll_nums) + '\n')
 
 for i in oll_nums:

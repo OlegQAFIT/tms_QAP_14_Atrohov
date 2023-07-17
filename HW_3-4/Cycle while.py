@@ -4,7 +4,7 @@ n = 5
 z = 0
 composition = 0
 while z < n:
-    composition = composition + z
+    composition *= z
     z += 1
 print(composition)
 

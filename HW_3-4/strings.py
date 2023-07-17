@@ -2,15 +2,14 @@
 # 1. Свяжите переменную с любой строкой, состоящей не менее чем из 8 символов.
 # Извлеките из строки первый символ, затем последний, третий с начала и третий с
 # конца. Измерьте длину вашей строки.
-import string
 
-import my as my
 
 str = "I try hard to learn everything."
 
 print(str[0])
 print(str[-1])
 print(str[2])
+print(str[-3])
 print(len(str))
 # 2. Присвойте произвольную строку длиной 10-15 символов переменной и извлеките из
 # нее следующие срезы:
@@ -20,8 +19,8 @@ print(len(str))
 # ● переверните строку
 str_1 = "My_name_is_Oleg"
 
-print(str_1[0:7])
-print(str_1[5:9])
+print(str_1[0:7:1])
+print(str_1[5:9:1])
 print(str_1[5:9:3])
 
 reversedstring = ''.join(reversed(str_1))

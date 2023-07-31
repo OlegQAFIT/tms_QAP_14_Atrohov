@@ -1,4 +1,4 @@
-class people:
+class People:
 
     def __init__(self, name, age, city):
         self.name = name
@@ -20,7 +20,7 @@ class people:
         else:
             print("Hasn't Parching out yet.")
 
-class Employee(people):
+class Employee(People):
 
     def __init__(self,name, age, city, company, experience, salary):
         super().__init__(name, age, city)

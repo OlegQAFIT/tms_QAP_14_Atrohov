@@ -3,14 +3,14 @@
 # файла. Если чисел меньше 3 выводить ошибку
 
 
-import ex1_condition
+with open("ex1_condition.py", "r") as file:
+    content = file.read()
+    numbers = eval(content)
 
-print(ex1_condition.lit)
-
-if len(ex1_condition.lit) < 3:
+if len(numbers) < 3:
     print("Количество цифр, меньше 3 значений")
 else:
-    print("Первый элемент из списка", ex1_condition.lit[0], sep=" - ")
-    print("Второй элемент из списка", ex1_condition.lit[1], sep=" - ")
-    print("Предпоследний элемент из списка", ex1_condition.lit[-2], sep=" - ")
-    print("Последний элемент из списка", ex1_condition.lit[-1], sep=" - ")
+    print("Первый элемент из списка", numbers[0], sep=" - ")
+    print("Второй элемент из списка", numbers[1], sep=" - ")
+    print("Предпоследний элемент из списка", numbers[-2], sep=" - ")
+    print("Последний элемент из списка", numbers[-1], sep=" - ")
